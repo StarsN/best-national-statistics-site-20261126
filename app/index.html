@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Atlas — National Statistics</title>
+<meta name="description" content="Population, GDP, life expectancy and more for 26 countries, from World Bank data. Search, rank, compare.">
+<link rel="stylesheet" href="./style.css">
+</head>
+<body>
+<header class="topbar">
+  <a class="brand" href="#/">
+    <span class="brand-mark" aria-hidden="true">◉</span>
+    <span class="brand-name">Atlas</span>
+    <span class="brand-sub">National Statistics</span>
+  </a>
+  <nav class="topnav" aria-label="Main">
+    <a href="#/" data-nav="home">Rankings</a>
+    <a href="#/compare" data-nav="compare">Compare</a>
+    <a href="#/about" data-nav="about">Sources &amp; method</a>
+  </nav>
+</header>
+<main id="view" aria-live="polite"></main>
+<footer class="footer">
+  <p>Figures: World Bank, World Development Indicators, accessed 26 Nov 2026. Every figure shows its year.</p>
+  <p>Atlas is an independent statistics explorer. It is not affiliated with the World Bank.</p>
+</footer>
+<script type="module" src="./main.js"></script>
+</body>
+</html>
